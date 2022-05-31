@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/articulos">
+
+    <fragment
+        android:id="@+id/articulos"
+        android:name="com.guillermocode.testpractico.ui.articulos.ArticulosFragment"
+        android:label="@string/articulos"
+        tools:layout="@layout/fragment_articulos" />
+
+    <fragment
+        android:id="@+id/perfil"
+        android:name="com.guillermocode.testpractico.ui.perfil.PerfilFragment"
+        android:label="@string/perfil"
+        tools:layout="@layout/fragment_perfil" />
+
+    <fragment
+        android:id="@+id/mis_productos"
+        android:name="com.guillermocode.testpractico.ui.misproductos.MisproductosFragment"
+        android:label="@string/mis_productos"
+        tools:layout="@layout/fragment_misproductos" />
+
+    <fragment
+        android:id="@+id/configuraciones"
+        android:name="com.guillermocode.testpractico.ui.configuraciones.ConfiguracionesFragment"
+        android:label="@string/configuraciones"
+        tools:layout="@layout/fragment_configuraciones" />
+
+
+</navigation>

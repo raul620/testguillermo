@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">testguillermo</string>
+    <string name="title">Información Básica</string>
+    <string name="title_completo">Información Completa</string>
+    <string name="config">Configuración</string>
+    <string name="titlelogin">Inicio de Sesión</string>
+    <string name="city">Ciudad</string>
+    <string name="sobre_mi">Sobre mí</string>
+    <string name="emailaddress">Email</string>
+    <string name="conditions">Acepto las Condiciones</string>
+    <string name="password">Pass</string>
+    <string name="confpassword">Confirmar Pass</string>
+    <string name="rememberme">Mantener mi sesión.</string>
+    <string name="button">Button</string>
+    <string name="todo">TODO</string>
+
+
+    <string name="facebook_app_id">432761664896691</string>
+    <string name="fb_login_protocol_scheme">fb432761664896691</string>
+    <string name="facebook_client_token">8811f8a5bf3362c379e2f4807a91e18e</string>
+    <string name="title_activity_articles">ArticlesActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Menu de Navegación</string>
+    <string name="nav_header_subtitle">scienceguillermo@gmail.com</string>
+    <string name="nav_header_desc">Menu de Navegación</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="articulos">Articulos</string>
+    <string name="perfil">Perfil</string>
+    <string name="mis_productos">Mis Productos</string>
+    <string name="configuraciones">Configuraciones</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">KEY</string>
+
+</resources>

@@ -1,0 +1,51 @@
+D:\android_nativo\testguillermo\keystore\keystore.jks
+
+pass: guillermo
+
+Alias: key0
+
+pass: guillermo
+
+IDClient: 91905659121-6ndi2vlk37u2q33es9rpefntohk9rrkc.apps.googleusercontent.com
+
+Alias name: key0
+Creation date: 30 may. 2022
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=Guillermo Hernandez, OU=House, O=House, L=San Juan de los Morros, ST=Venezuela, C=2301
+Issuer: CN=Guillermo Hernandez, OU=House, O=House, L=San Juan de los Morros, ST=Venezuela, C=2301
+Serial number: 3b81a58d
+Valid from: Mon May 30 16:26:10 VET 2022 until: Fri May 24 16:26:10 VET 2047
+Certificate fingerprints:
+         SHA1: A6:DD:31:F9:C8:22:E5:C6:67:36:C3:77:0F:04:36:F7:82:1A:D5:C5
+         SHA256: 58:05:C9:83:78:3A:3F:D7:4D:AC:5A:9F:F2:58:FB:D9:73:83:DB:2F:76:EB:1E:75:42:18:63:D5:6D:0E:58:12
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 6C 77 D7 7F B2 06 7B FB   0E 4F 1D FC 29 9C 93 02  lw.......O..)...
+0010: 4F BC B0 E0                                        O...
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+##################################web aplication###################################################
+Client ID: 91905659121-r370hmuc5tdo3ohc96acbh5hj40eotj4.apps.googleusercontent.com
+secret client: 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
+
+
+      
+keytool -exportcert -alias key0 -keystore D:\android_nativo\testguillermo\keystore | openssl sha1 -binary | openssl base64
+
+result: BT9fPz8/NT8/Pz8/Pz96aFkXPz8K
